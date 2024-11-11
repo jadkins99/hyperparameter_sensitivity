@@ -1,0 +1,17 @@
+{
+    "metaParameters": {
+    "alg_type": [
+         "lambda_ac",
+         "advn_norm_ema",
+         "advn_norm_max_ema",
+         "advn_norm_mean",
+         "symlog_critic_targets",
+         "symlog_obs",
+         "norm_obs" ],  
+
+    "env_name": ["hopper", "swimmer", "halfcheetah", "walker2d", "ant"],
+        "gae_lambda": [0.1, 0.3, 0.5, 0.7, 0.9],
+        "actor_lr":[1.0e-5, 1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1],
+        "critic_lr":[1.0e-5, 1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1],
+        "ent_coef": [1.0e-3, 1.0e-2, 1.0e-1, 1.0e0, 1.0e1]
+} }
